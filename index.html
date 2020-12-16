@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="css/style.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" charset="utf-8"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <title>Vue-email-list</title>
+  </head>
+  <body>
+    <div id="root">
+      <ul>
+        <li v-for="(email,index) in emails"><a href="#">{{email}}</a></li>
+      </ul>
+    </div>
+    <script src="js/script.js" charset="utf-8"></script>
+  </body>
+</html>
